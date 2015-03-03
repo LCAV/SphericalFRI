@@ -6,8 +6,7 @@ Applications_](http://arxiv.org/abs/1502.07577) by Ivan Dokmanić and Yue M. Lu
 
 __Dependecies__: This code requires some routines from the Spherical Harmonic
 Transform package SSHT by Jason McEwen and Yves Wiaux. SSSH can be obtained at
-[this link](http://www.jasonmcewen.org/codes/ssht/).
-
+[this link](http://www.jasonmcewen.org/codes/ssht/). Most of these dependencies will be removed in the future.
 
 ## Main functions
 
@@ -23,6 +22,7 @@ Transform package SSHT by Jason McEwen and Yves Wiaux. SSSH can be obtained at
 | CramerRaoBound.m  | Computation of the Cramer Rao lower bound                      |
 | CmMatrix.m        | Matrix of polynomial coefficients corresponding to m           |
 
+__Note__: The code to generate the spherical harmonics currently can't generate harmonics of high orders (to be replaced soon).
 
 
 ## Examples and paper figures
